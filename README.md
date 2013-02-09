@@ -1,8 +1,8 @@
 Unified Assets (v0.0.1)
 =======================
 
-The unified-assets gem is a small utility for unifying (and minifying) static
-javascript and css asset files, either at build time or at run-time.
+A small utility for unifying (and minifying) static javascript and css asset
+files, either at build time or at run-time.
 
 You declare a list of source files, and the gem will unify and minify them.
 
@@ -10,20 +10,20 @@ The gem also provides a simple rack-based web server that will serve up your
 static website files and automatically recreate the unified files if the underlying
 source files have been modified.
 
-NOTE
-----
+**NOTE:**
 
 This gem is really for my own personal use when building some of my HTML-only games. They
 consist of pure client-side html, javascript and css, with no dynamic server back end, but I 
 still want to auto-generate unified and minified scripts and styles.
 
-You will almost certainly be better off with more robust tools such as:
+**You will almost certainly be better off with** more robust tools such as:
 
  * [sprockets](https://github.com/sstephenson/sprockets) - if you have a ruby/rails back end
  * [gears](https://github.com/gears/gears) - if you have a python back end
  * [mincer](https://github.com/nodeca/mincer) - if you have a node back end
+ * [requirejs](http://requirejs.org/) - if you want to do it the AMD way
 
-This is just a tiny little gem that works well for my specific purposes and might not be the
+This is just a tiny little gem that works well for **my** specific purposes and might not be the
 best tool for others. Use your own judgement.
 
 Installation
